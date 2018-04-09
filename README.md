@@ -1,2 +1,3 @@
-# Quadcopter-project-
-Used reinforcement learning to teach a quadcopter to hover, take off and fly.
+# Quadcopter-project
+
+Used reinforcement learning to teach a quadcopter to learn tasks like hovering, take off and landing.
