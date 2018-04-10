@@ -1,5 +1,3 @@
-# TODO: your agent here!
-
 import numpy as np
 from task import Task 
 
