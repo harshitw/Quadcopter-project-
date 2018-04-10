@@ -1,5 +1,4 @@
-# 3 tasks - landing, hover, takeoff 
-# landing requires init pos to be above the ground at some height h, hover means same initial and final position, take off means initial position is near the ground at height close to zero. 
+# 3 tasks - landing, hover, takeoff  
 
 import numpy as np
 from physics_sim import PhysicsSim
