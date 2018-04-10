@@ -270,22 +270,6 @@ class DDPG():
 
         new_weights = self.tau * local_weights + (1 - self.tau) * target_weights
         target_model.set_weights(new_weights)
-                                          
-    #def preprocess_state(self, state):
-        """Reduce state vector to relevant dimensions."""
-     #   return state[0:3]  # position only
-
-    #def postprocess_action(self, action):
-        """Return complete action vector."""
-     #   complete_action = np.zeros(self.task.action_space.shape)  # shape: (6,)
-      #  complete_action[0:3] = action  # linear force only
-       # return complete_action
-
-    #def write_stats(self, stats):
-        """Write single episode stats to CSV file."""
-      #  df_stats = pd.DataFrame([stats], columns=self.stats_columns)  # single-row dataframe
-       # df_stats.to_csv(self.stats_filename, mode='a', index=False,
-        #    header=not os.path.isfile(self.stats_filename))  # write header first time only
 
 
 class OUNoise:
